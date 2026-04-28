@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fia da Mãe | Camisetas 100% Algodão com Estilo – Londrina, PR</title>
+  <meta name="description" content="Camisetas 100% algodão com estampas exclusivas. Cultura pop, amor animal, espiritualidade e muito mais. Parcele em 3x sem juros ou ganhe 5% OFF no Pix. Londrina, PR.">
+  <meta name="keywords" content="camisetas algodão, camisetas estampadas, camisetas Londrina, fia da mãe, camisetas cultura pop, camisetas gato">
+  <meta property="og:title" content="Fia da Mãe | Camisetas com Estilo">
+  <meta property="og:description" content="Estampas exclusivas com personalidade. Cultura pop, amor animal e muito mais.">
+  <meta property="og:url" content="https://fiadamae.com.br">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://fiadamae.com.br">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="theme-color" content="#0f0e0c">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ClothingStore",
+    "name": "Fia da Mãe",
+    "url": "https://fiadamae.com.br",
+    "email": "suporte@fiadamae.com.br",
+    "telephone": "+554399686-4016",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Londrina",
+      "addressRegion": "PR",
+      "addressCountry": "BR"
+    },
+    "description": "Camisetas 100% algodão com estampas exclusivas. Cultura pop, amor animal e muito mais.",
+    "priceRange": "R$69 - R$109"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --preto: #0f0e0c;
+      --preto2: #1a1916;
+      --preto3: #0a0908;
+      --creme: #f5f0e8;
+      --creme2: #ede8dc;
+      --ouro: #e8b84b;
+      --ouro2: #d4a33a;
+      --verde-wa: #25D366;
+      --font-display: 'Bebas Neue', sans-serif;
+      --font-body: 'DM Sans', sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--creme);
+      color: var(--preto);
+      overflow-x: hidden;
+    }
+
+    /* ── ANIMAÇÕES ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50%       { transform: translateY(-10px); }
+    }
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateX(20px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+
+    .fade-up { animation: fadeUp 0.7s ease both; }
+    .delay-1 { animation-delay: 0.1s; }
+    .delay-2 { animation-delay: 0.2s; }
+    .delay-3 { animation-delay: 0.3s; }
+    .delay-4 { animation-delay: 0.4s; }
+
+    /* ── NAVBAR ── */
+    .nav {
+      background: var(--preto);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 40px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid #222;
+    }
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      text-decoration: none;
+    }
+    .nav-logo .box {
+      background: #fff;
+      color: var(--preto);
+      font-family: var(--font-display);
+      font-size: 20px;
+      letter-spacing: 3px;
+      padding: 4px 10px;
+      line-height: 1;
+    }
+    .nav-logo .rest {
+      font-family: var(--font-display);
+      font-size: 20px;
+      letter-spacing: 3px;
+      color: var(--creme);
+      padding: 4px 10px;
+      line-height: 1;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 28px;
+      list-style: none;
+    }
+    .nav-links a {
+      font-size: 11px;
+      color: #666;
+      text-decoration: none;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--ouro); }
+
+    .nav-wa {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      background: var(--verde-wa);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 500;
+      padding: 8px 16px;
+      border-radius: 24px;
+      text-decoration: none;
+      letter-spacing: 0.5px;
+      transition: opacity 0.2s;
+    }
+    .nav-wa:hover { opacity: 0.9; }
+    .nav-wa svg { width: 14px; height: 14px; fill: #fff; }
+
+    /* ── HERO ── */
+    .hero {
+      background: var(--preto);
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      padding: 50px 40px 0;
+      min-height: 380px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -60px; right: -60px;
+      width: 300px; height: 300px;
+      border-radius: 50%;
+      border: 1px solid rgba(232,184,75,0.08);
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      bottom: 20px; left: 20px;
+      width: 180px; height: 180px;
+      border-radius: 50%;
+      border: 1px solid rgba(232,184,75,0.05);
+    }
+
+    .hero-left { padding-bottom: 44px; max-width: 420px; position: relative; z-index: 2; }
+
+    .hero-tag {
+      font-size: 10px;
+      color: var(--ouro);
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: 76px;
+      line-height: 0.92;
+      color: var(--creme);
+      letter-spacing: 1px;
+    }
+    .hero-title em {
+      color: var(--ouro);
+      font-style: normal;
+    }
+
+    .hero-sub {
+      font-size: 13px;
+      color: #666;
+      margin-top: 16px;
+      line-height: 1.7;
+      max-width: 300px;
+    }
+
+    .hero-cta {
+      display: inline-block;
+      margin-top: 24px;
+      background: var(--ouro);
+      color: var(--preto);
+      font-size: 12px;
+      font-weight: 500;
+      padding: 12px 28px;
+      border-radius: 3px;
+      text-decoration: none;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: background 0.2s, transform 0.2s;
+    }
+    .hero-cta:hover { background: var(--ouro2); transform: translateY(-1px); }
+
+    .hero-right {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .mascot-wrap {
+      animation: float 4s ease-in-out infinite;
+      width: 220px;
+    }
+
+    /* SVG mascote inline */
+    .mascot-wrap svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* ── BENEFÍCIOS ── */
+    .benefits {
+      background: var(--preto2);
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 12px 40px;
+      border-bottom: 1px solid #222;
+      flex-wrap: wrap;
+    }
+    .ben {
+      font-size: 11px;
+      color: #555;
+      letter-spacing: 0.5px;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+    .ben b { color: var(--ouro); font-weight: 500; }
+    .ben-dot {
+      width: 4px; height: 4px;
+      background: #333;
+      border-radius: 50%;
+    }
+
+    /* ── CATÁLOGO ── */
+    .catalog {
+      background: var(--creme);
+      padding: 48px 40px;
+    }
+
+    .cat-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 28px;
+    }
+    .cat-title {
+      font-family: var(--font-display);
+      font-size: 36px;
+      color: var(--preto);
+      letter-spacing: 2px;
+    }
+    .cat-sub {
+      font-size: 11px;
+      color: #aaa;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 14px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #e8e3d8;
+      transition: transform 0.2s, box-shadow 0.2s;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(15,14,12,0.12);
+    }
+
+    .card-img {
+      background: var(--creme2);
+      aspect-ratio: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .card-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .card-placeholder {
+      font-size: 48px;
+      opacity: 0.4;
+    }
+    .card-off {
+      position: absolute;
+      top: 8px; left: 8px;
+      background: var(--preto);
+      color: var(--ouro);
+      font-size: 9px;
+      font-weight: 500;
+      padding: 3px 7px;
+      border-radius: 2px;
+      letter-spacing: 0.5px;
+    }
+    .card-tag {
+      position: absolute;
+      top: 8px; right: 8px;
+      background: var(--ouro);
+      color: var(--preto);
+      font-size: 8px;
+      font-weight: 500;
+      padding: 3px 6px;
+      border-radius: 2px;
+      letter-spacing: 0.5px;
+    }
+
+    .card-body { padding: 12px 14px 14px; }
+
+    .card-cat {
+      font-size: 9px;
+      color: #bbb;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 3px;
+    }
+    .card-name {
+      font-size: 12px;
+      color: #555;
+      line-height: 1.3;
+      margin-bottom: 6px;
+      min-height: 30px;
+    }
+    .card-prices {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+    }
+    .card-new {
+      font-family: var(--font-display);
+      font-size: 22px;
+      color: var(--preto);
+      line-height: 1;
+    }
+    .card-old {
+      font-size: 10px;
+      color: #ccc;
+      text-decoration: line-through;
+    }
+    .card-pix {
+      font-size: 9px;
+      color: #aaa;
+      margin-top: 3px;
+    }
+    .card-btn {
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+      background: var(--preto);
+      color: var(--creme);
+      font-size: 10px;
+      font-weight: 500;
+      padding: 8px;
+      border-radius: 3px;
+      text-align: center;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: background 0.2s;
+    }
+    .card:hover .card-btn { background: var(--ouro); color: var(--preto); }
+
+    /* ── CTA SECTION ── */
+    .cta-section {
+      background: var(--preto);
+      padding: 56px 40px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-section::before {
+      content: 'FIA DA MÃE';
+      font-family: var(--font-display);
+      font-size: 140px;
+      color: rgba(255,255,255,0.02);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      white-space: nowrap;
+      letter-spacing: 10px;
+    }
+    .cta-title {
+      font-family: var(--font-display);
+      font-size: 44px;
+      color: var(--creme);
+      letter-spacing: 2px;
+      line-height: 1;
+      position: relative;
+    }
+    .cta-title em { color: var(--ouro); font-style: normal; }
+    .cta-sub {
+      font-size: 13px;
+      color: #555;
+      margin-top: 10px;
+      position: relative;
+    }
+    .cta-btn {
+      display: inline-block;
+      margin-top: 24px;
+      background: var(--ouro);
+      color: var(--preto);
+      font-size: 13px;
+      font-weight: 500;
+      padding: 14px 40px;
+      border-radius: 3px;
+      text-decoration: none;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: background 0.2s, transform 0.2s;
+      position: relative;
+    }
+    .cta-btn:hover { background: var(--ouro2); transform: translateY(-2px); }
+
+    /* ── FOOTER ── */
+    .footer {
+      background: var(--preto3);
+      padding: 24px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #1a1916;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .footer-logo { text-decoration: none; display: flex; align-items: center; }
+    .footer-logo .box {
+      background: #fff;
+      color: var(--preto);
+      font-family: var(--font-display);
+      font-size: 15px;
+      letter-spacing: 3px;
+      padding: 3px 8px;
+    }
+    .footer-logo .rest {
+      font-family: var(--font-display);
+      font-size: 15px;
+      letter-spacing: 3px;
+      color: var(--creme);
+      padding: 3px 8px;
+    }
+    .footer-info {
+      font-size: 11px;
+      color: #444;
+      text-align: right;
+      line-height: 1.9;
+    }
+    .footer-info a { color: #555; text-decoration: none; }
+    .footer-info a:hover { color: var(--ouro); }
+
+    /* ── WHATSAPP FLOAT ── */
+    .wa-float {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--verde-wa);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 500;
+      padding: 12px 18px;
+      border-radius: 28px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 4px 20px rgba(37,211,102,0.35);
+      z-index: 200;
+      transition: transform 0.2s, box-shadow 0.2s;
+      letter-spacing: 0.5px;
+    }
+    .wa-float:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba(37,211,102,0.45);
+    }
+    .wa-float svg { width: 16px; height: 16px; fill: #fff; }
+
+    /* ── RESPONSIVO ── */
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: repeat(2, 1fr); }
+      .hero { flex-direction: column; align-items: flex-start; padding: 36px 24px 0; }
+      .mascot-wrap { width: 160px; align-self: flex-end; }
+      .hero-title { font-size: 56px; }
+      .nav { padding: 12px 20px; }
+      .nav-links { display: none; }
+      .catalog { padding: 36px 20px; }
+      .benefits { gap: 16px; padding: 12px 20px; }
+    }
+
+    @media (max-width: 600px) {
+      .grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+      .hero-title { font-size: 48px; }
+      .footer { flex-direction: column; text-align: center; }
+      .footer-info { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="nav">
+    <a href="/" class="nav-logo" aria-label="Fia da Mãe - início">
+      <span class="box">FIA</span>
+      <span class="rest">DA MÃE</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#catalogo">Camisetas</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="https://wa.me/5543996864016" target="_blank" rel="noopener">Contato</a></li>
+    </ul>
+    <a href="https://wa.me/5543996864016" target="_blank" rel="noopener" class="nav-wa">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Fale conosco
+    </a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-left fade-up">
+      <p class="hero-tag">Camisetas 100% Algodão · Londrina, PR</p>
+      <h1 class="hero-title">
+        Estilo<br>
+        que fala<br>
+        <em>por você</em>
+      </h1>
+      <p class="hero-sub">Estampas exclusivas com personalidade. Cultura pop, amor animal, espiritualidade e muito mais.</p>
+      <a href="#catalogo" class="hero-cta">Ver coleção ↓</a>
+    </div>
+
+    <div class="hero-right fade-up delay-2">
+      <div class="mascot-wrap">
+        <img src="assets/mascote.png" alt="Mascote Fia da Mãe - gatinho preto">
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFÍCIOS -->
+  <div class="benefits">
+    <span class="ben"><b>3x</b> sem juros no cartão</span>
+    <span class="ben-dot"></span>
+    <span class="ben"><b>+5% OFF</b> pagando no Pix</span>
+    <span class="ben-dot"></span>
+    <span class="ben"><b>1ª troca</b> sem custo</span>
+    <span class="ben-dot"></span>
+    <span class="ben"><b>Entrega</b> para todo o Brasil</span>
+  </div>
+
+  <!-- CATÁLOGO -->
+  <section class="catalog" id="catalogo">
+    <div class="cat-header">
+      <h2 class="cat-title">Destaques da Coleção</h2>
+      <span class="cat-sub">clique e compre direto</span>
+    </div>
+
+    <div class="grid">
+
+      <a href="https://reserva.ink/362388/product/145-camiseta-algodao-nevermind" target="_blank" rel="noopener" class="card fade-up delay-1">
+        <div class="card-img">
+          <span class="card-placeholder">🎸</span>
+          <span class="card-off">DESTAQUE</span>
+        </div>
+        <div class="card-body">
+          <p class="card-cat">Música</p>
+          <p class="card-name">Nevermind</p>
+          <div class="card-prices">
+            <span class="card-new">Ver preço</span>
+          </div>
+          <p class="card-pix">+5% OFF no Pix</p>
+          <span class="card-btn">Comprar →</span>
+        </div>
+      </a>
+
+      <a href="https://reserva.ink/362388/product/014-camiseta-100-algodao-friends" target="_blank" rel="noopener" class="card fade-up delay-2">
+        <div class="card-img">
+          <span class="card-placeholder">☕</span>
+          <span class="card-off">DESTAQUE</span>
+        </div>
+        <div class="card-body">
+          <p class="card-cat">Série</p>
+          <p class="card-name">Friends</p>
+          <div class="card-prices">
+            <span class="card-new">Ver preço</span>
+          </div>
+          <p class="card-pix">+5% OFF no Pix</p>
+          <span class="card-btn">Comprar →</span>
+        </div>
+      </a>
+
+      <a href="https://reserva.ink/362388/product/037-camiseta-100-algodao-jedi" target="_blank" rel="noopener" class="card fade-up delay-3">
+        <div class="card-img">
+          <span class="card-placeholder">⚔️</span>
+          <span class="card-off">DESTAQUE</span>
+        </div>
+        <div class="card-body">
+          <p class="card-cat">Cinema</p>
+          <p class="card-name">Jedi</p>
+          <div class="card-prices">
+            <span class="card-new">R$ 99,90</span>
+            <span class="card-old">R$ 109,90</span>
+          </div>
+          <p class="card-pix">R$ 94,91 no Pix</p>
+          <span class="card-btn">Comprar →</span>
+        </div>
+      </a>
+
+      <a href="https://reserva.ink/362388/product/010-camiseta-100-algodao-allweneed" target="_blank" rel="noopener" class="card fade-up delay-4">
+        <div class="card-img">
+          <span class="card-placeholder">🌿</span>
+          <span class="card-off">20% OFF</span>
+        </div>
+        <div class="card-body">
+          <p class="card-cat">Estilo</p>
+          <p class="card-name">All We Need</p>
+          <div class="card-prices">
+            <span class="card-new">R$ 79,00</span>
+            <span class="card-old">R$ 99,90</span>
+          </div>
+          <p class="card-pix">R$ 75,05 no Pix</p>
+          <span class="card-btn">Comprar →</span>
+        </div>
+      </a>
+
+      <a href="https://reserva.ink/362388/product/020-camiseta-100-algodao-negative" target="_blank" rel="noopener" class="card fade-up delay-1">
+        <div class="card-img">
+          <span class="card-placeholder">🖤</span>
+          <span class="card-off">DESTAQUE</span>
+        </div>
+        <div class="card-body">
+          <p class="card-cat">Estilo</p>
+          <p class="card-name">Negative</p>
+          <div class="card-prices">
+            <span class="card-new">Ver preço</span>
+          </div>
+          <p class="card-pix">+5% OFF no Pix</p>
+          <span class="card-btn">Comprar →</span>
+        </div>
+      </a>
+
+      <a href="https://reserva.ink/362388/product/021-camiseta-100-algodao-surpresa" target="_blank" rel="noopener" class="card fade-up delay-2">
+        <div class="card-img">
+          <span class="card-placeholder">🎁</span>
+          <span class="card-off">DESTAQUE</span>
+        </div>
+        <div class="card-body">
+          <p class="card-cat">Estilo</p>
+          <p class="card-name">Surpresa</p>
+          <div class="card-prices">
+            <span class="card-new">Ver preço</span>
+          </div>
+          <p class="card-pix">+5% OFF no Pix</p>
+          <span class="card-btn">Comprar →</span>
+        </div>
+      </a>
+
+      <a href="https://reserva.ink/362388/product/105-camiseta-algodao-billy" target="_blank" rel="noopener" class="card fade-up delay-3">
+        <div class="card-img">
+          <span class="card-placeholder">🎵</span>
+          <span class="card-off">DESTAQUE</span>
+        </div>
+        <div class="card-body">
+          <p class="card-cat">Música</p>
+          <p class="card-name">Billy</p>
+          <div class="card-prices">
+            <span class="card-new">Ver preço</span>
+          </div>
+          <p class="card-pix">+5% OFF no Pix</p>
+          <span class="card-btn">Comprar →</span>
+        </div>
+      </a>
+
+      <a href="https://reserva.ink/362388/product/079-camiseta-infantil-amigos" target="_blank" rel="noopener" class="card fade-up delay-4">
+        <div class="card-img" style="background:#eef5ee;">
+          <span class="card-placeholder">🧒</span>
+          <span class="card-off">INFANTIL</span>
+          <span class="card-tag">Kids</span>
+        </div>
+        <div class="card-body">
+          <p class="card-cat">Infantil</p>
+          <p class="card-name">Amigos</p>
+          <div class="card-prices">
+            <span class="card-new">Ver preço</span>
+          </div>
+          <p class="card-pix">+5% OFF no Pix</p>
+          <span class="card-btn">Comprar →</span>
+        </div>
+      </a>
+
+      <a href="https://reserva.ink/362388/product/100-camiseta-infantil-buldoguinho" target="_blank" rel="noopener" class="card fade-up delay-1">
+        <div class="card-img" style="background:#eef5ee;">
+          <span class="card-placeholder">🐶</span>
+          <span class="card-off">INFANTIL</span>
+          <span class="card-tag">Kids</span>
+        </div>
+        <div class="card-body">
+          <p class="card-cat">Infantil</p>
+          <p class="card-name">Buldoguinho</p>
+          <div class="card-prices">
+            <span class="card-new">R$ 79,00</span>
+            <span class="card-old">R$ 89,00</span>
+          </div>
+          <p class="card-pix">R$ 75,05 no Pix</p>
+          <span class="card-btn">Comprar →</span>
+        </div>
+      </a>
+
+      <a href="https://reserva.ink/362388/product/096-camiseta-infantil-heartbeatwh" target="_blank" rel="noopener" class="card fade-up delay-2">
+        <div class="card-img" style="background:#f5eef0;">
+          <span class="card-placeholder">💗</span>
+          <span class="card-off">INFANTIL</span>
+          <span class="card-tag">Kids</span>
+        </div>
+        <div class="card-body">
+          <p class="card-cat">Infantil</p>
+          <p class="card-name">Heartbeat</p>
+          <div class="card-prices">
+            <span class="card-new">Ver preço</span>
+          </div>
+          <p class="card-pix">+5% OFF no Pix</p>
+          <span class="card-btn">Comprar →</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cta-section" id="sobre">
+    <h2 class="cta-title">Mais de <em>40 modelos</em><br>te esperando</h2>
+    <p class="cta-sub">Acesse a loja completa e encontre sua favorita</p>
+    <a href="https://reserva.ink/362388" target="_blank" rel="noopener" class="cta-btn">Ver toda a coleção →</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <a href="/" class="footer-logo" aria-label="Fia da Mãe">
+      <span class="box">FIA</span>
+      <span class="rest">DA MÃE</span>
+    </a>
+    <div class="footer-info">
+      <a href="mailto:suporte@fiadamae.com.br">suporte@fiadamae.com.br</a> · Londrina, PR<br>
+      CNPJ 35.620.369/0001-81 · © 2026 Fia da Mãe
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLUTUANTE -->
+  <a href="https://wa.me/5543996864016" target="_blank" rel="noopener" class="wa-float" aria-label="Fale conosco no WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    Fale conosco
+  </a>
+
+</body>
+</html>
